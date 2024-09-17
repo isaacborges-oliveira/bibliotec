@@ -18,14 +18,125 @@ header {
     background-color: #26333D;
 }
 
+img {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+h1 {
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+#bem-vindo {
+
+    background-color: #3691D8;
+    width: 100%;
+    height: 570;
+
+}
+
+button {
+    background-color: #26333D;
+    color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 8px 28px 8px 28px;
+    height: 50px;
+    border: none;
+    flex-wrap: wrap;
+}
+
 .layout-grid {
     width: 100%;
     height: 100%;
     max-width: 992px;
     margin: 0 auto;
 
+}
+
+.banner-flex {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+
 
 }
+
+.banner-info {
+    display: flex;
+    width: 450px;
+    height: 300px;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.banner-info p {
+    font-size: 20px;
+    color: white;
+}
+
+/* totalmente gratis  */
+
+#gratis {
+    background-color: #3691D8;
+    margin-top: 50px;
+}
+
+.gratis-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.gratis-flex img {
+
+    width: 670px
+}
+
+.textos-gratis {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    height: 200px;
+    color: white;
+
+
+}
+
+.textos-gratis p {
+    color: white;
+
+
+}
+
+.quadrado {
+    width: 50%;
+    
+}
+
+.textos-gratis button{
+   
+    
+}
+/* totalmente gratis  */
+
+
+
+
+
+
+
+
 
 nav {
 
@@ -58,7 +169,7 @@ a:hover {
 
 }
 
-h1 {
+h2 {
     align-items: center;
     justify-content: space-between;
     text-align: center;
@@ -179,6 +290,7 @@ h5 {
 h6 {
     font-size: larger;
 }
+
 .logo-footer {
     display: flex;
     flex-direction: column;
@@ -198,7 +310,7 @@ footer {
 .footer-flex {
     display: flex;
     flex-wrap: wrap;
-   
+
     justify-content: space-between;
 }
 
@@ -210,16 +322,16 @@ footer nav {
 
 footer h4 {
     display: flex;
-    
+
     flex-wrap: wrap;
     color: aqua;
     margin-bottom: 10px;
 }
 
 .footer-flex article {
-    
+
     display: flex;
-    
+
     justify-content: space-between;
     margin-bottom: 40px;
 }
@@ -232,11 +344,13 @@ footer h4 {
     text-decoration: none;
     transition: color 0.4s;
 }
-.links a:hover{
+
+.links a:hover {
     box-shadow: 0, 6, 8px, black;
     color: rgb(52, 218, 201);
 
 }
+
 footer hr {
     margin-top: 20px;
     box-sizing: border-box;
