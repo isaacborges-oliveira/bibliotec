@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulários </title>
+</head>
+
+<body>
+    <h1> Campos de formulário </h1>
+
+    <form action="">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Seu nome" required>
+
+        <br> <br>
+        <label for="email">E-mail</label>
+        <input type="email" id="e-mail" placeholder="Seu e-mail" required>
+
+        <br> <br>
+        <label for="">Senha</label>
+        <input type="password" id="senha" placeholder="******">
+        <br><br>
+        <label for="">Confirmar Senha</label>
+        <input type="password" id="senha" placeholder="******">
+        <br><br>
+
+        Idade
+        <input type="number" step="5" min="0" max="150" id="idade" placeholder="" required>
+        <label for="Estado"></label>
+        Estado
+        <select name="" id="estdado">
+            <option value="">Selecione</option>
+            <option value="ba">Bahia</option>
+            <option value="sp">Sao Paulo</option>
+            <option value="go">Goiás</option>
+            <option value="mr">Maranhão</option>
+            <option value="Pr">Pernambuco</option>
+            <option value="St">Santa Catarina</option>
+            <option value="To">Tocantins</option>
+            <option value="ac">Acre</option>
+            <option value="al">Alagoas</option>
+            <option value="Es">Espírito Santo</option>
+            <option value="PB">Paraíba</option>
+            <option value="Pi">Piauí</option>
+            <option value="Rn">Rio Grande do Norte</option>
+            <option value="Ro">Rio Grande do Sul</option>
+            <option value="Ro">Rondônia</option>
+            <option value="Rr">Roraima</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="Am">Amazonas</option>
+            <option value="Ce">Ceará</option>
+            <br>
+        </select> <br> <br>
+        <label for="">Cadastro Ativo</label>
+        <input type="Radio" name="cadativo" value="sim"> sim
+        <input type="Radio" name="cadativo" value="nao"> nao
+        <br> <br>
+        <label for="">Hobbies:</label> <br>
+        <input type="checkbox" name="hobs[]">Ouvir Musicas
+        <input type="checkbox" name="hobs[]">Games
+        <input type="checkbox" name="hobs[]">Treinar
+        <input type="checkbox" name="hobs[]">Violao
+        <input type="checkbox" name="hobs[]">Trompete
+        <input type="checkbox" name="hobs[]">baixo
+        <input type="checkbox" name="hobs[]">bateria
+        <br> <br><br>
+        <label for="condsideracoes">Consideracoes</label>
+        <br>
+        <textarea name="Consideracoes" id="Consideracoes"> </textarea>
+        <br>
+        <button> Enviar </button>
+    </form>
+
+</body>
+
+</html>

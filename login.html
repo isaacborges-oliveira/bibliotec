@@ -1,26 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bibliotec</title>
-    <link rel="stylesheet" href="css/login.css">
+    <title>login-bibliotec</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <style>
+        main {
+            background-size: 100%;
+            background-image: url("images/images/login-bk-desktop.png");
+        }
+    </style>
 </head>
 
 <body>
     <header>
         <div class="layout-grid header-flex">
-
-            <img src="images/images/logo-desktop.svg" alt="Livro aberto com o texto Bibliotec ao seu lado">
+            <img src="images/images/logo-desktop.svg" alt="Logo da marca da BiblioTec">
             <nav>
-                <a href="">QUEM SOMOS</a>
-                <a href="">NOSSO ACERVO</a>
-                <a href="">LOGIN</a>
+                <a href="#">Quem somos</a>
+                <a href="#">Nosso acervo</a>
+                <a href="#">Login</a>
             </nav>
         </div>
-
     </header>
+
+
     <main>
-        <form action=""></form>
+        <form class="layout-grid login">
+            <h1>Entre na Biblio Tec</h1>
+            <div class="login">
+                <label for="email">E-mail</label><br>
+                <input type="email" id="email" placeholder="email@gmail.com">
+                <br><br>    
+                <label for="senha">Senha</label>
+                <input type="senha" id="senha" placeholder="*************">
+            </div>
+            <a href="">Esqueci a senha </a>
+            <button> ENTRAR</button>
+
+        </form>
+
+
     </main>
+
+</body>
+
+</html>
