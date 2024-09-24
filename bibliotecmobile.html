@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliotec</title>
+    
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #26333D;
+}
+
+img {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+h1 {
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+#bem-vindo {
+
+    background-color: #3691D8;
+    width: 100%;
+    height: 570;
+
+}
+
+button {
+    background-color: #26333D;
+    color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 8px 28px 8px 28px;
+    height: 50px;
+    border: none;
+    flex-wrap: wrap;
+}
+
+
+
+.banner-flex {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.banner-info {
+    display: flex;
+    width: 450px;
+    height: 300px;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.banner-info p {
+    font-size: 20px;
+    color: white;
+}
+
+/* totalmente gratis  */
+
+#gratis {
+    background-color: #3691D8;
+    margin-top: 50px;
+}
+
+.gratis-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.gratis-flex img {
+
+    width: 490px
+}
+
+.textos-gratis {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    height: 200px;
+    color: white;
+
+
+}
+
+.textos-gratis p {
+    color: white;
+
+
+}
+
+.quadrado {
+    width: 50%;
+    
+}
+
+.textos-gratis button{
+   
+    
+}
+/* totalmente gratis  */
+
+
+
+
+
+
+
+
+
+nav {
+
+    display: flex;
+    width: 350px;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: color 0.4s;
+}
+
+a:hover {
+
+    font-size: oblique;
+    box-shadow: 0, 6, 8px, black;
+    color: rgb(5, 251, 226);
+}
+
+.header-flex {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+h2 {
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 2px solid aqua;
+    border-width: 5px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    width: 30%;
+}
+
+.titulo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.bibliotec-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    max-width: 992px;
+    margin-top: 10px;
+    margin: 0 auto;
+
+}
+
+.motivo {
+    margin-top: 50px;
+    height: 350px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+    text-align: center;
+
+    box-shadow: 7px 10px 20px gray;
+
+}
+
+.livrin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 110px;
+    border-radius: 70%;
+    margin-top: -120px;
+
+}
+
+.bolinha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid aqua;
+    margin-top: -100px;
+    background-color: white;
+}
+
+.top4 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 10%;
+}
+
+.top4 h2 {
+    width: 100%;
+    border-bottom: 2px solid aqua;
+    margin-top: -120px;
+}
+
+.livros {
+    width: 100%;
+    height: 700px;
+    margin-top: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.livros h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-width: 5px;
+    margin-bottom: 20px;
+
+    font-size: 30 px;
+
+}
+
+.livros p {
+    margin-top: 20px;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+h5 {
+    font-size: larger;
+}
+
+h6 {
+    font-size: larger;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+    width: 210px;
+    height: auto;
+}
+
+
+
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+footer nav {
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+footer h4 {
+    display: flex;
+
+    flex-wrap: wrap;
+    color: aqua;
+    margin-bottom: 10px;
+}
+
+.footer-flex article {
+
+    display: flex;
+
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.links a {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: color 0.4s;
+}
+
+.links a:hover {
+    box-shadow: 0, 6, 8px, black;
+    color: rgb(52, 218, 201);
+
+}   
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 10%;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.informacoes-rodape {
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    margin-left: 15%;
+}
+
+.conteudo article nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 3%;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+        @media screen and (max-width: 776px) {
+
+            .bem-vindo{
+                flex-direction: column;
+                align-items: center;
+
+
+        }
+        .motivo{
+            flex-direction: column;
+                align-items: center;
+        }
+        .bibliotec-flex{
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+        }
+        .livros{
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+            
+            
+
+        }
+  
+        .banner-flex img{
+    display: none;
+        }
+        .banner-info{
+
+            text-align: center;
+        }
+.header-flex a{
+    display: none;
+}
+
+nav{
+
+position: fixed;
+top: 30px;
+left: 0;
+z-index: 10;
+width: 80%;
+hei
+
+}
+
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+</style>
+<body>  
+    <header>
+        <div class="layout-grid header-flex">
+
+            <img src="images/images/logo-desktop.svg" alt="Livro aberto com o texto Bibliotec ao seu lado">
+            <nav class ="menu-mobile">
+                <a href="">QUEM SOMOS</a>
+                <a href="">NOSSO ACERVO</a>
+                <a href="login.html">LOGIN</a>
+            </nav>
+            <img src="images/images/menu-hamburger.png" alt="">
+        </div>
+
+    </header>
+    <main>
+        <section id="bem-vindo">
+            <div class="layout-grid banner-flex">
+                <div class="banner-info">
+                    <h1>Bem vindo ao Bibliotec</h1>
+                    <p>O melhor gerenciador para <br> biblioteca de <br>
+                        maneira moderna e atomatizada </p>
+                    <button>Acessar
+                        <a href="https://www.youtube.com"></a>
+                    </button>
+
+                </div>
+                <img src="images/images/banner-mulher-livro.png" alt="">
+
+            </div>
+        </section>
+
+
+        <section class="porqueusar">
+
+            <div class="layout-grid bibliotec-flex">
+                <div class="titulo">
+                    <h2>Por que usar Bibliotec?</h2>
+                </div>
+
+                <article class="motivo">
+                    <article class="bolinha"> <img src="images/images/book-solid.svg" alt=""></article>
+                    <h3> RESERVE SEU LIVRO ONLINE</h3>
+                    <p>Imagine os livros que <br> ama listados em um <br>só lugar</p>
+                </article>
+                <article class="motivo">
+                    <article class="bolinha"> <img src="images/images/check-solid.svg" alt=""></article>
+                    <h3> VISUALIZE SE SEU <br>
+                        LIVRO ESTARÁ <br>DISPONÍVEL</h3>
+                    <p>Imagine os livros que <br> ama listados em um <br>só lugar</p>
+                </article>
+                <article class="motivo">
+                    <article class="bolinha"> <img src="images/images/heart-solid.svg" alt=""></article>
+                    <h3> FAÇA SUA LISTA <br> DE FAVORITOS </h3>
+                    <p>Imagine os livros que <br> ama listados em um <br>só lugar</p>
+                </article>
+            </div>
+
+
+
+            </article>
+
+        </section>
+        <section id="gratis">
+            <div class="layout-grid gratis-flex">
+                <article quadrado>
+                    <img src="images/images/totalmente-gratis.png" alt="">
+                </article>
+                <div class="textos-gratis">
+                    <h3>Acesse a nossa plataforma! </h3>
+                    <p>Faça seu login ou solicite <br>
+                        o cadastro para o Bibliotec </p>
+                    <button>ACESSAR
+
+                    </button>
+
+                </div>
+
+
+            </div>
+        </section>
+
+
+        <section class="livros">
+            <div class="layout-grid top4">
+                <h2>Top 4 livros recomendados</h2>
+                <article>
+                    <img src="images/images/livro1.png" alt="">
+                    <p>A ESCOLHA DO BEM <br>E DO MAL</p>
+
+                    <p>Autor(a):</p>
+
+                    <p>Soman Chainani</p>
+                </article>
+                <article>
+                    <img src="images/images/livro2.png" alt="">
+                    <P>FILHAS DA LUA</P>
+
+                    <p>Autor(a):</p>
+                    <p>Carolina França</p>
+                </article>
+                <article>
+                    <img src="images/images/livro3.png" alt="">
+                    <P>TI PARA NEGÓCIOS</P>
+
+                    <p>Autor(a):</p>
+
+                    <p>Edson Perin</p>
+
+                </article>
+                <article>
+                    <img src="images/images/livro4.png" alt="">
+                    <P>MESTRE DO TEMPO</P>
+
+                    <p>Autor(a):</p>
+
+                    <p>Soman Chainani</p>
+
+                </article>
+            </div>
+        </section>
+    </main>
+   
+</body>
+
+</html>
